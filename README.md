@@ -14,7 +14,11 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Bump into too many things and the policeman catches you!
 - Grab a hoverboard to ride for 20 seconds; it saves you from one bump.
 - Grab a magnet and coins fly to you for 15 seconds.
-- Hit a mystery box for a surprise: coins, a hoverboard, a magnet, a zoom or a super jump.
+- Grab a jetpack to fly high over everything for 8 seconds, collecting a trail of sky coins.
+- Grab a rainbow star to smash through everything for 8 seconds.
+- Chain coins together for a combo: each one rings higher, and every 10 earns bonus coins.
+- Hit a mystery box for a surprise: coins, a hoverboard, a magnet, a jetpack, a star, a zoom or a super jump.
+- A bouncy tune plays while you run and speeds up as you go faster.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
 - The game starts a little quicker and the hoverboard is faster. If she keeps getting caught early, it gently slows down next time, and speeds back up after a good long run.
