@@ -12,6 +12,8 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Tall trains can't be jumped, so swerve round them.
 - Bump into too many things and the policeman catches you!
 - Grab a hoverboard to ride for 20 seconds; it saves you from one bump.
+- Hit a mystery box for a surprise: coins, a hoverboard, a zoom or a super jump.
+- Golden speed portals zoom you along at top speed and dodge everything for you.
 - Sound effects are made in the browser; tap "Sound on" to mute. (On iPad, the side switch or Control Centre silent mode also mutes it.)
 
 Works on iPad and phones. In Safari, use Share > Add to Home Screen to play it full screen like an app.
