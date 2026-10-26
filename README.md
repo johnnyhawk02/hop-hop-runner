@@ -10,6 +10,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - **Tap or swipe up** (or space / up arrow) to jump.
 - Bounce pads and ramps launch you up onto bridges, and big climbs take you higher and higher before a long slide down.
 - Tall trains can't be jumped, so swerve round them.
+- Run through tunnels with rainbow lights, twirl on big jumps, and get a cheer every 100 m.
 - Bump into too many things and the policeman catches you!
 - Grab a hoverboard to ride for 20 seconds; it saves you from one bump.
 - Grab a magnet and coins fly to you for 15 seconds.
