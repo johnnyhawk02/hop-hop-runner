@@ -18,7 +18,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
 - The game starts a little quicker and the hoverboard is faster. If she keeps getting caught early, it gently slows down next time, and speeds back up after a good long run.
-- Long rows of shops line the track, with bunting and fans waving from balconies. Fireworks go off in the sky, and wiggly coin trails weave across the lanes.
+- Long rows of shops line the track right up to the fences, with gaps to see the trees and billboards, with bunting and fans waving from balconies. Fireworks go off in the sky, and wiggly coin trails weave across the lanes.
 - Sound effects are made in the browser; tap "Sound on" to mute. (On iPad, the side switch or Control Centre silent mode also mutes it.)
 
 Works on iPad and phones. In Safari, use Share > Add to Home Screen to play it full screen like an app.
