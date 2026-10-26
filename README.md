@@ -16,6 +16,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Grab a magnet and coins fly to you for 15 seconds.
 - Hit a mystery box for a surprise: coins, a hoverboard, a magnet, a zoom or a super jump.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
+- Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
 - Sound effects are made in the browser; tap "Sound on" to mute. (On iPad, the side switch or Control Centre silent mode also mutes it.)
 
 Works on iPad and phones. In Safari, use Share > Add to Home Screen to play it full screen like an app.
