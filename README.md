@@ -23,7 +23,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Spooky World through the ghost portal: friendly ghosts, peekaboo gravestones, spooky trees, glowing mushrooms, a haunted house, jack-o'-lanterns, bats, a big moon with a witch flying past, and a witch hat for Robyn.
 - Portal crossroads: three portals side by side (rainbow, bubble, rocket, ghost), each to a different world, with a picture showing where it goes. Portals come round again if you miss one.
 - Now and then the towns switch to Halloween colours.
-- The policeman is a friendly British bobby with a custodian helmet, hi-vis vest and a big moustache.
+- The policeman is a cross British bobby with a custodian helmet, hi-vis vest and a big moustache. Now and then he turns round, the game slows right down and the camera swoops in on his roaring face.
 - Border collies run alongside Robyn for a while, and black-and-white cats sit on the fences watching her or dash across the track.
 - A bouncy tune plays while you run and speeds up as you go faster. At top speed it sweeps up an octave and back over 64 bars, with a stereo ping-pong echo (dotted 1/8) run through a wandering frequency shifter; it all fades back to normal as you slow down. Dad's 148 bpm drum loops are locked to the music's bars and speed up with it: loop 1 comes in during a zoom, the others play during the jetpack and rainbow star and drift in now and then, sometimes quiet and sometimes full. Loop 4 plays quietly through a dotted-1/8 ping-pong echo while the magnet is on. To add one, add an entry to `LOOPS` in index.html.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
