@@ -23,6 +23,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Spooky World through the ghost portal: friendly ghosts, peekaboo gravestones, spooky trees, glowing mushrooms, a haunted house, jack-o'-lanterns, bats, a big moon with a witch flying past, and a witch hat for Robyn.
 - Portal crossroads: three portals side by side (rainbow, bubble, rocket, ghost, fairground), each to a different world, with a picture showing where it goes. Portals come round again if you miss one.
 - Now and then the towns switch to Halloween colours.
+- The world curves away like a little planet, Subway Surfers style (a vertex-shader bend; gameplay is unchanged).
 - The Fun Fair through the fairground portal: a big wheel, rollercoaster, carousel, helter skelter and chair swings either side, all moving with chasing lights, plus stalls with candy floss and balloons.
 - The policeman is a slightly cross British bobby with a custodian helmet, hi-vis vest and a big moustache. Now and then he turns round and the camera swoops in on his glare for a moment.
 - Border collies run alongside Robyn for a while, and black-and-white cats sit on the fences watching her or dash across the track.
