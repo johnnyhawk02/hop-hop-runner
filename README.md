@@ -18,7 +18,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Grab a rainbow star to smash through everything for 8 seconds.
 - Chain coins together for a combo: each one rings higher, and every 10 earns bonus coins.
 - Hit a mystery box for a surprise: coins, a hoverboard, a magnet, a jetpack, a star, a zoom or a super jump.
-- Collect 100 coins and a golden gate appears: run through it to Space, with aliens, rockets, planets, floaty moon jumps and double coins. The purple portal brings you home.
+- Collect 100 coins and a golden gate appears: run through it to Space, with aliens, moon mountains, rockets blasting off, planets, floaty moon jumps and double coins. The purple portal brings you home.
 - A bouncy tune plays while you run and speeds up as you go faster.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
