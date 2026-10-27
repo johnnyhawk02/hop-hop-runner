@@ -19,7 +19,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - Chain coins together for a combo: each one rings higher, and every 10 earns bonus coins.
 - Hit a mystery box for a surprise: coins, a hoverboard, a magnet, a jetpack, a star, a zoom or a super jump.
 - Collect 100 coins and a golden gate appears: run through it to Space, with aliens, moon mountains, rockets blasting off, planets, floaty moon jumps and double coins. The purple portal brings you home.
-- A bouncy tune plays while you run and speeds up as you go faster.
+- A bouncy tune plays while you run and speeds up as you go faster. At top speed it sweeps up an octave and back over 64 bars, with a stereo ping-pong echo (dotted 1/8) run through a wandering frequency shifter; it all fades back to normal as you slow down.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
 - The game starts a little quicker and the hoverboard is faster. If she keeps getting caught early, it gently slows down next time, and speeds back up after a good long run.
