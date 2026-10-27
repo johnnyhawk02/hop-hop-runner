@@ -26,7 +26,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - The world curves away like a little planet, Subway Surfers style (a vertex-shader bend; gameplay is unchanged).
 - The Fun Fair through the fairground portal: a big wheel, rollercoaster, carousel, helter skelter and chair swings either side, all moving with chasing lights, plus stalls with candy floss and balloons.
 - The policeman is a slightly cross British bobby with a custodian helmet, hi-vis vest and a big moustache. Now and then he turns round and the camera swoops in on his glare for a moment.
-- Border collies run alongside Robyn for a while, and black-and-white cats sit on the fences watching her or dash across the track.
+- Izzi the border collie runs alongside Robyn for a while, and Pixel the black-and-white cat sits on the fences watching her or dashes across the track.
 - A bouncy tune plays while you run and speeds up as you go faster. At top speed it sweeps up an octave and back over 64 bars, with a stereo ping-pong echo (dotted 1/8) run through a wandering frequency shifter; it all fades back to normal as you slow down. Dad's 148 bpm drum loops are locked to the music's bars and speed up with it: loop 1 comes in during a zoom, the others play during the jetpack and rainbow star and drift in now and then, sometimes quiet and sometimes full. Loop 4 plays quietly through a dotted-1/8 ping-pong echo while the magnet is on. To add one, add an entry to `LOOPS` in index.html.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
