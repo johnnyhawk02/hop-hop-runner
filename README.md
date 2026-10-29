@@ -27,7 +27,7 @@ A jump-only 3D endless runner for kids, inspired by Subway Surfers but with no d
 - The Fun Fair through the fairground portal: a big wheel, rollercoaster, carousel, helter skelter and chair swings either side, all moving with chasing lights, plus stalls with candy floss and balloons.
 - The policeman is a slightly cross British bobby with a custodian helmet, hi-vis vest and a big moustache. Now and then he turns round and the camera swoops in on his glare for a moment.
 - Izzi the border collie runs alongside Robyn for a while, and Pixel the black-and-white cat sits on the fences watching her or dashes across the track.
-- A bouncy tune plays while you run and speeds up as you go faster. At top speed it sweeps up an octave and back over 64 bars, with a stereo ping-pong echo (dotted 1/8) run through a wandering frequency shifter; it all fades back to normal as you slow down. Dad's 148 bpm drum loops are locked to the music's bars and speed up with it: loop 1 comes in during a zoom, the others play during the jetpack and rainbow star and drift in now and then, sometimes quiet and sometimes full. Loop 4 plays quietly through a dotted-1/8 ping-pong echo while the magnet is on. To add one, add an entry to `LOOPS` in index.html.
+- A bouncy tune plays while you run and speeds up as you go faster. At top speed it sweeps up an octave and back over 64 bars, with a stereo ping-pong echo (dotted 1/8) run through a wandering frequency shifter; it all fades back to normal as you slow down. Dad's 148 bpm drum loops are locked to the music's bars and speed up with it: loop 1 comes in during a zoom, the others play during the jetpack and rainbow star and drift in now and then, sometimes quiet and sometimes full. Loop 4 plays quietly through a dotted-1/8 ping-pong echo while the magnet is on. To add one, put the mp3 in `audio/` and add an entry to `LOOPS` in `js/sound.js`.
 - Golden speed portals zoom you along at top speed and dodge everything for you.
 - Billboards beside the track show Robyn and cheer her on ("Well done Robyn!").
 - The game starts a little quicker and the hoverboard is faster. If she keeps getting caught early, it gently slows down next time, and speeds back up after a good long run.
@@ -41,7 +41,22 @@ Works on iPad and phones. In Safari, use Share > Add to Home Screen to play it f
 
 ## Running it
 
-It's a single `index.html` file with no build step. three.js loads from a CDN. Open the file in a browser, or serve the folder with any static host (for example GitHub Pages).
+There's no build step: serve the folder with any static host (for example GitHub Pages, or `python3 -m http.server`) and open `index.html`. three.js loads from a CDN.
+
+## How the code is laid out
+
+- `index.html`: the page (HUD, start and crash screens) and the list of scripts, in load order.
+- `css/style.css`: all the styling.
+- `js/`: the game, one plain script per area. They share one scope, so later files can use anything from earlier ones, and `js/loop.js` loads last and starts the game.
+  - `config.js` tuning numbers; `sound.js` sound effects, music and drum loops; `scene.js` renderer, camera and ground; `scenery.js` everything scrolling past at the sides and in the sky
+  - `obstacles.js` obstacles, trains, bridges, ramps and climbs; `runner.js` Robyn and the pickup models; `policeman.js`; `pets.js` Izzi and Pixel
+  - `pickups.js` coins, portals and mystery boxes; `effects.js` sparkles, dust, ducks, fireworks
+  - `worlds/` Space, Under the Sea, Spooky World, the Fun Fair, and `lands.js` for the portal's colour themes
+  - `game.js` game state, HUD, power-ups and crashes; `input.js` touch and keys; `spawn.js` what appears on the track; `loop.js` the frame loop
+- `audio/` Dad's drum loops, `img/` the billboard photo, `models/` the cottage.
+- `manifest.webmanifest`, `icon-*.png`, `sw.js`: install as an app and play offline. If you add a file the game loads, add it to `CORE` in `sw.js` too.
+
+`python3 tools/build.py` bakes everything into one self-contained file, `dist/hop-hop-runner.html`, for places that need a single page (the Claude Artifact copy).
 
 ## Credits
 
