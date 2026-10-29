@@ -46,3 +46,4 @@ It's a single `index.html` file with no build step. three.js loads from a CDN. O
 ## Credits
 
 - Cottage model: ["Painterly Cottage"](https://sketchfab.com/3d-models/painterly-cottage-0772aec70d584c60a27000af5f6c1ef4) by [glenatron](https://sketchfab.com/glenatron), licensed [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/). Stored at `models/cottage.glb`.
+- Installs as an app (Add to Home Screen / Chrome Install) and plays offline: web app manifest, icons and a service worker.
